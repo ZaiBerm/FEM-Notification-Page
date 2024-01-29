@@ -1,0 +1,106 @@
+
+body {
+  background-color: hsl(210, 60%, 98%);
+  font-family: Plus Jakarta Sans;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.main-div {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.20);
+  padding: 0px 30px;
+  border-radius: 15px;
+  width: 55%;
+}
+
+.notif-div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.notif-div p {
+  font-size: 20px;
+  font-weight: 800;
+  background-color: hsl(219, 85%, 26%);
+  padding: 2px 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.first-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mark-all {
+  color: gray;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notif {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  gap: 14px;
+  align-items: start;
+  padding: 16px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background-color 1s;
+}
+
+.dp-container img {
+  width: 40px;
+}
+
+.upper-info {
+  display: flex;
+  gap: 6px;
+}
+
+.notif-info .name {
+  font-weight: 800;
+  font-size: 16px;
+  color: black;
+  margin-right: 4px;
+}
+
+.notif-info p {
+  color: gray;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+.unread-indicator {
+  color: rgb(9, 172, 9);
+  margin-left: 5px;
+}
+
+.notif-info .time {
+  font-size: 15px;
+  color: rgb(177, 174, 174);
+  margin-top: 5px;
+}
+
+.info-content {
+  margin-top: 20px;
+  border: 1px solid rgb(218, 215, 215);
+  padding: 10px 13px;
+  border-radius: 5px;
+
+  transition: display 1s;
+}
+
+.about {
+  font-weight: 800;
+}
